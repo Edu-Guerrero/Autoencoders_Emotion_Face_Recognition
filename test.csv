@@ -1,0 +1,13 @@
+filename,path,name,emotion
+NA.AN3.213.jpg,face_dataset/test/NA.AN3.213.jpg,NA,anger
+TM.AN1.190.jpg,face_dataset/test/TM.AN1.190.jpg,TM,anger
+KR.AN1.83.jpg,face_dataset/test/KR.AN1.83.jpg,KR,anger
+NA.AN1.211.jpg,face_dataset/test/NA.AN1.211.jpg,NA,anger
+TM.DI2.194.jpg,face_dataset/test/TM.DI2.194.jpg,TM,disgust
+UY.AN1.146.jpg,face_dataset/test/UY.AN1.146.jpg,UY,anger
+KA.DI2.43.jpg,face_dataset/test/KA.DI2.43.jpg,KA,disgust
+KL.SU1.164.jpg,face_dataset/test/KL.SU1.164.jpg,KL,surprise
+KM.DI3.22.jpg,face_dataset/test/KM.DI3.22.jpg,KM,disgust
+MK.SA1.119.jpg,face_dataset/test/MK.SA1.119.jpg,MK,sadness
+KL.SU2.165.jpg,face_dataset/test/KL.SU2.165.jpg,KL,surprise
+KM.DI1.20.jpg,face_dataset/test/KM.DI1.20.jpg,KM,disgust
