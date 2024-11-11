@@ -74,9 +74,7 @@ Validation_split: 0.2
 ![Reconstruction_Error](Images/reconstruction_error.png)
 
 ## Evaluación con SVM
-![SVM](Images/svm_ae.jpeg)
-
-## Resultados para todas las configuraciones
+### Resultados para todas las configuraciones
 
 | Tipo de modelo | Dimensión de codificación | Parámetro adicional               | Accuracy |
 |----------------|---------------------------|-----------------------------------|----------|
@@ -87,9 +85,13 @@ Validation_split: 0.2
 | Sparse         | 128                       | Regularización de sparsity: 1e-07 | 0.0833   |
 | Denoising      | 128                       | Tasa de dropout: 0.3              | 0.3333   |
 
-## Evaluación con Naive Bayes
-![Naive_Bayer](Images/naive_ae.jpeg)
+### Gráfica
 
+![SVM](Images/svm_ae.jpeg)
+
+
+## Evaluación con Naive Bayes
+### Resultados para todas las configuraciones
 
 | Tipo de modelo | Dimensión de codificación | Parámetro adicional               | Accuracy |
 |----------------|---------------------------|-----------------------------------|----------|
@@ -100,6 +102,9 @@ Validation_split: 0.2
 | Sparse         | 128                       | Regularización de sparsity: 1e-07 | 0.0833   |
 | Denoising      | 128                       | Tasa de dropout: 0.3              | 0.0833   |
 
+### Gráfica
+
+![Naive_Bayer](Images/naive_ae.jpeg)
 
 
 
