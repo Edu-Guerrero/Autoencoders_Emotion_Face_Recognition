@@ -51,9 +51,12 @@ Validation_split: 0.2
 ![Sparse_loss](Images\denoising_loss.png)
 
 ### Reconstrucción de las imágenes
-![Sparse_Reconstruct1](Images\sparse_reconstruction_1.png)
-![Sparse_Reconstruct2](Images\sparse_reconstruction_2.png)
-![Sparse_Reconstruct3](Images\sparse_reconstruction_3.png)
+![Sparse_Reconstruct1](Images\denoising_reconstruction_1.png)
+![Sparse_Reconstruct2](Images\denoising_reconstruction_2.png)
+![Sparse_Reconstruct3](Images\denoising_reconstruction_3.png)
 
 ### Espacio latente
-![Sparse_Latent_Space](Images\sparse_latent_space.png)
+![Sparse_Latent_Space](Images\denoising_latent_space.png)
+
+# Comparación del error de reconstruccion
+![Reconstruction_Error](Images/reconstruction_error.png)
