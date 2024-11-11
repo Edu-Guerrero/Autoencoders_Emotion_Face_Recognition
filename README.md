@@ -24,6 +24,10 @@ Haciendo un análisis del dataset se obtiene las siguientes frecuencias de emoci
 Batch_size: 16
 Validation_split: 0.2
 
+## TSNE para visualización del espacio latente en el conjunto de entrenamiento
+![Sparse_TSNE](Images/tsne_train.png)
+
+
 ### Gráfica loss
 ![Sparse_loss](Images/sparse_loss.png)
 
