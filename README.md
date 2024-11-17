@@ -106,11 +106,27 @@ Validation_split: 0.2
 
 ![Naive_Bayer](Images/naive_ae.jpeg)
 
+# Evaluación para los individuos #
 
+Haciendo un análisis del dataset se obtiene las siguientes frecuencias de individuos
+![Ind_training](Images/Individuals_train.png)
 
+![Ind_test](Images/Individuals_test.png)
 
+## Evaluacion con Naive Bayes ##
 
+### Resultados para todas las configuraciones
 
+| Tipo de modelo | Dimensión de codificación | Parámetro adicional               | Accuracy |
+|----------------|---------------------------|-----------------------------------|----------|
+| Sparse         | 32                        | Regularización de sparsity: 1e-05 | 0.0833   |
+| Denoising      | 32                        | Tasa de dropout: 0.1              | 1.0000   |
+| Sparse         | 64                        | Regularización de sparsity: 1e-06 | 0.0000   |
+| Denoising      | 64                        | Tasa de dropout: 0.2              | 1.0000   |
+| Sparse         | 128                       | Regularización de sparsity: 1e-07 | 1.0000   |
+| Denoising      | 128                       | Tasa de dropout: 0.3              | 0.9167   |
 
+### Gráfica
 
+![Naive_Bayer](Images/naive_indv_ae.png)
 
